@@ -1,27 +1,51 @@
 package co.dev;
-
+ 
 public class Basic {
-
-	public static void main(String[] args) {
-		double a = 2;
-		double b = 15;
-		double c = 1;
-		double x1,x2,x; 
-		
-		double delta = (b*b)-(4*a*c);
-		/*if (delta < 0){
-			System.out.println("Phuong trinh vo nghiem");*/
-		if (delta<0) { 
-		 System.out.println("Phuong Trinh vo nghiem");};
-	    if (delta>0 ) {
-	    	x1=(-b+Math.sqrt(delta))/(2*a);
-	    	x2=(-b-Math.sqrt(delta))/(2*a);
-	    	System.out.println("Nghiem cua x1 la :"+x1);
-	    	System.out.println("Nghiem cua x2 la :"+x2);
-	    }
-	    if (delta==0) {
-	    	x=((-b)/(2*a));
-	    	System.out.println("Nghiem kep cua phuong trinh la:"+x);
-	    }
-	}
+ 
+    public static void main(String[] args) {
+ 
+        int age = 5;
+ 
+        switch (age) {
+        case 10:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Ten");
+            break;
+        case 9:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Nine");
+            break;
+        case 8:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Eight");
+            break;
+        case 7:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Seven");
+            break;
+        case 6:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Six");
+            break;
+        case 5:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Five");
+            break;
+        case 4:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Four");
+            break;
+        case 3:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Three");
+            break;
+        case 2:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Two ");
+            break;
+        case 1:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : One");
+            break;
+        case 0:
+            System.out.println("Số bạn vừa nhập vào trong tiếng anh viết là : Zero");
+            break;
+           
+        // Các trường hợp còn lại
+        default:
+            System.out.println("Chưa cập nhất dữ liệu cho số bạn vừa nhập");
+        }
+ 
+    }
 }
+ 
